@@ -4,3 +4,6 @@
 [submodule "dl/dl_oreily/book_code"]
 	path = dl/dl_oreily/book_code
 	url = https://github.com/jabeerahmed/handson-ml
+[submodule "dl/tf_oreily"]
+	path = dl/tf_oreily
+	url = https://github.com/jabeerahmed/Oreilly-Learning-TensorFlow
