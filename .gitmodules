@@ -1,6 +1,6 @@
 [submodule "tensorflow"]
 	path = tensorflow
 	url = https://github.com/tensorflow/tensorflow.git
-[submodule "dl/tf_oreily/book_code"]
-	path = dl/tf_oreily/book_code
+[submodule "dl/dl_oreily/book_code"]
+	path = dl/dl_oreily/book_code
 	url = https://github.com/jabeerahmed/handson-ml
