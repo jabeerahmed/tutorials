@@ -7,3 +7,6 @@
 [submodule "dl/tf_oreily"]
 	path = dl/tf_oreily
 	url = https://github.com/jabeerahmed/Oreilly-Learning-TensorFlow
+[submodule "dl/udemy/machine_learning_examples"]
+	path = dl/udemy/machine_learning_examples
+	url = https://github.com/lazyprogrammer/machine_learning_examples
