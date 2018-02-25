@@ -1,1 +1,4 @@
 *.connect.json
+MNIST-data/
+*.pyc
+*.DS_Store
