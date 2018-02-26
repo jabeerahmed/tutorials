@@ -95,3 +95,11 @@ def model_fn(features, labels, mode, params, config):
     return tf.estimator.EstimatorSpec(mode=mode, 
                                       loss=loss, 
                                       eval_metric_ops=eval_metric_ops)
+
+
+class MnistClassifier(tf.estimator.Estimator):
+
+    def __init__(self, model_dir=None, config=None, warm_start_from=None):
+        super(MnistClassifier, self).__init__(model_fn=model_fn, 
+                                              model_dir=model_dir, 
+                                              config=config)    
